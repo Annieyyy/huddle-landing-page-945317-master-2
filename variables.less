@@ -1,0 +1,24 @@
+@pinkColor: hsl(322, 100%, 66%);
+@paleCyan: hsl(193, 100%, 96%);
+@darkCyan: hsl(192, 100%, 9%);
+@grayishBlue: hsl(208, 11%, 55%);
+
+@boxSizing: border-box;
+
+.btnFormat(@height:50px,@width:300px){
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	height: @height;
+	width: @width;
+	background-color: @pinkColor;
+	border-radius: 50px;
+	margin-top: 30px;
+	color: #FFFFFF;
+}
+.flexPos(@flexFlow:column, @jc:center,@ai:center){
+	display: flex;
+	flex-flow: @flexFlow;
+	justify-content: @jc;
+	align-items:@ai;
+}
