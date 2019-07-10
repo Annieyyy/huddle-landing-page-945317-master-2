@@ -5,6 +5,7 @@
   }
   .top {
     background: url("./images/bg-hero-mobile.svg") no-repeat center center;
+    background-color: hsl(193, 100%, 96%);
   }
   .top .top-header {
     padding: 4% 6% 4%;
